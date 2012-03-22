@@ -1,5 +1,5 @@
 .container {
-  width: 710px;
+  width: 950px;
 }
 
 body {
@@ -24,6 +24,11 @@ section {
 
 section h1 {
   font-size: 200%;
+  font-weight: bold;
+}
+
+section h2 {
+  font-size: 150%;
 }
 
 /* Links */
@@ -91,7 +96,7 @@ footer {
   background-color: white;
   text-align: center;
   margin-top: 10px;
-  width: 710px;
+  width: 950px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 0.2em 0 0.2em 0;
@@ -101,3 +106,11 @@ footer {
 footer nav {
   float: none;
 }
+
+sidebar {
+	width: 285px;
+  padding: 1em;
+  float: right;
+  background: #7eaecc;
+}
+
