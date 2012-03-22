@@ -66,6 +66,7 @@ nav ul li {
 }
 
 nav ul li a {
+  color: #09c;
   padding: 0 5px;
   font-weight: bold;
 }
