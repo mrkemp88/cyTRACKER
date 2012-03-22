@@ -66,13 +66,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #09c;
+  color: #449acc;
   padding: 0 5px;
   font-weight: bold;
 }
 
 nav ul li a:visited {
-  color: #09c;
+  color: #449acc;
 }
 
 nav ul li a:hover {
