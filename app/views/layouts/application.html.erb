@@ -12,7 +12,16 @@
       	<% flash.each do |key, value| %>
           <%= content_tag(:div, value, :class => "flash #{key}") %>
         <% end %>
-        <%= yield %>
+        <table>
+					<tr>
+						<td id="sidebar">
+							<%= render 'layouts/sidebar' %>
+						</td>
+						<td id="main">
+        			<%= yield %>
+        	 	</td>
+					</tr>
+				</table>
       </section>
       <%= render 'layouts/footer' %>
       <%= debug(params) if Rails.env.development? %>

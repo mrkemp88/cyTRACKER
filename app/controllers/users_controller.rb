@@ -3,6 +3,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     @title = @user.name
+    @sidebar = "Navigation stuff goes here..."
   end
   
   def new
