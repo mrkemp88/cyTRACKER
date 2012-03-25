@@ -1,5 +1,12 @@
 <sidebar class="round">
 	<strong>Main Menu</strong><br />
 	<hr>
-	<%= @sidebar %>
+	<%= def sidebarval
+		if @sidebar
+			@sidebar
+		else
+			"Helpful Information here..."
+		end
+	end %>
+	<%= sidebarval %>
 </sidebar>
