@@ -4,7 +4,7 @@ describe PagesController do
   render_views
   
   before(:each) do
-    @base_title = "On-Track Systems"
+    @base_title = "TRACKER"
   end
 
   describe "GET 'home'" do
