@@ -1,7 +1,9 @@
 <header>
-  <% logo = image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+  <% logo = image_tag("logo.png", :alt => "TRACKER") %>
+  <% cylogo = image_tag("cy.jpg", :alf => "City Year", :size => "55x50") %>
   <%= link_to logo, root_path %>
-  <nav class="round">
+  <%= link_to cylogo, root_path %>
+  <div class="headernav">
 		<ul>
       <li><%= link_to "Home", root_path %> </li>
       <% if signed_in? %>
@@ -16,5 +18,5 @@
       <li><%= link_to "Log In", login_path %></li>
       <% end %>
     </ul>
-  </nav>
+  </div>
 </header>
